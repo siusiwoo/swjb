@@ -1,35 +1,47 @@
-*{
-     margin: 0; /* 바깥쪽 여백 */
-    padding: 0; /*안쪽 여백*/
-    box-sizing: border-box;/*테두리 두께 무시*/
-    
+* {
+    margin: 0;
+    /* 바깥쪽 여백 */
+    padding: 0;
+    /*안쪽 여백*/
+    box-sizing: border-box;
+    /*테두리 두께 무시*/
 
+   
 }
-a{
-    text-decoration: none;/**/
-    display: block;/**/
-    color: black;/**/
+
+a {
+    text-decoration: none;
+    /**/
+    display: block;
+    /**/
+    color: black;
+    /**/
 }
-li{
-    list-style-type: none;/**/
+
+li {
+    list-style-type: none;
+    /**/
 }
-.container{
+
+.container {
     width: 100%;
     height: 1200px;
-    background: linear-gradient(rgba(195, 8, 219, 0.8),rgba(230, 14, 122, 0.8)), url(R.jpg) no-repeat;
+    background: linear-gradient(rgba(195, 8, 219, 0.8), rgba(230, 14, 122, 0.8)), url(R.jpg) no-repeat;
     background-size: cover;
 
     color: white;
 }
-.header{
+
+.header {
     width: 100%;
     height: 100px;
-  
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 200px;
     height: 80px;
 
@@ -38,10 +50,12 @@ li{
     font-weight: bold;
     transition: 0.3s;
 }
-.logo:hover{
+
+.logo:hover {
     color: #ff6a6a;
 }
-.menu{
+
+.menu {
     width: 400px;
     height: 100px;
 
@@ -50,21 +64,24 @@ li{
     align-items: center;
     transition: 0.3s;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: #ff6a6a;
 
 }
-.menu li{
+
+.menu li {
     width: 25%;
     text-align: center;
 }
-.menu li a{
+
+.menu li a {
     color: white;
     font-weight: bold;
     font-size: 20px;
 }
 
-.main{
+.main {
     width: 1000px;
     height: 600px;
 
@@ -73,34 +90,97 @@ li{
 
     text-align: center;
 }
-.main h1{
+
+.main h1 {
     font: size 50px;
     margin-bottom: 50px;
 }
-.main h2{
+
+.main h2 {
     font-size: 40px;
-    
+
 }
-.main h3{
+
+.main h3 {
     font-size: 30px;
     font-weight: normal;
 
     margin-bottom: 50px;
 }
-.main button{
+
+.main button {
     font-size: 30px;
 
 
     width: 250px;
     height: 90px;
     border: 3px solid white;
-    border-radius: 20px ;
+    border-radius: 20px;
     background-color: transparent;
 
     color: white;
     transition: 0.3s;
 }
-.main button:hover{
+
+.main button:hover {
     background-color: white;
     color: black;
+}
+
+.about{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+
+    margin-top: 100px;
+}
+.about h2{
+    font-size: 40px;
+    color: #ff6a6a;
+}
+.about h1{
+    font-size: 50px;
+}
+.about .contents{
+    width: 100%;
+    height: 500px;
+    display: flex;
+
+    margin-top: 50px;
+}
+.about .left{
+    width: 400px;
+    height: 500px;
+}
+.about .left img{
+    width: 400px;
+    height: 600px;
+}
+.about .right{
+    width: 800px;
+    height: 500px;
+
+    padding-left: 30px;
+}
+.about .right span{
+    color: #ff6a6a;
+}
+.about .right li{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.fa-facebook{
+    font-size: 50px;
+    color: #3b5998;
+    margin-right: 10px;
+}
+.fa-youtube{
+    font-size: 50px;
+    color: red;
+    margin-right: 10px;
+}
+.fa-instagram{
+    font-size: 50px;
+    color: #ff6a6a;
+    margin-right: 10px;
 }
