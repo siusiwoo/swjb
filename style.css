@@ -5,7 +5,7 @@
     /*안쪽 여백*/
     box-sizing: border-box;
     /*테두리 두께 무시*/
-
+  
     
 
    
@@ -97,8 +97,11 @@ li {
 }
 
 .main h1 {
-    font: size 50px;
+    font-size: 50px;
     margin-bottom: 50px;
+}
+.main h1 span{
+    font-size: 80px;
 }
 
 .main h2 {
@@ -125,6 +128,9 @@ li {
 
     color: white;
     transition: 0.3s;
+}
+.nonono{
+    
 }
 
 .main button:hover {
@@ -277,4 +283,68 @@ li {
 .project{
     height: 1200px;
     margin-top: 0;
+}
+
+.contact{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+
+    margin-top: 100px;
+}
+.contact h2{
+    font-size: 40px;
+    color: #ff6a6a;
+}
+
+.contact h1{
+    font-size: 50px;
+}
+.contact .contents
+{
+    width: 1200px;
+    height: 700px;
+    display: flex;
+}
+.contact .left{
+    width: 400px;
+    height: 700px;
+}
+.contact .right{
+    width: 800px;
+    height: 700px;
+
+}
+.info{
+    width: 350px;
+    height: 80px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+}
+.info h3{
+
+}
+.info p{
+
+}
+
+.contact .right p{
+    margin-top: 20px;
+}
+.contact .right input{
+    width: 800px;
+    height: 30px;
+}
+.contact .right textarea{
+    width: 800px;
+    height: 400px;
+}
+.contact button{
+    width: 800px;
+    height: 30px;
+    background-color: #ff6a6a;
+    color: white;
+    font-weight: bold;
+    border: none;
 }
