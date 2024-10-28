@@ -129,9 +129,6 @@ li {
     color: white;
     transition: 0.3s;
 }
-.nonono{
-    
-}
 
 .main button:hover {
     background-color: white;
@@ -197,6 +194,28 @@ li {
 .about .right li{
     font-size: 23px;
     margin-bottom: 20px;
+}
+.right ul li span{
+    font-size: 38px;
+  
+}
+.name3{
+    font-size: 20px;
+    margin-top: 0px;
+    color: #3f7188;
+}
+li .age{
+    font-size: 15px;
+    color: #3f7188;
+
+}
+li .location{
+    font-size: 15px;
+    color: #3f7188;
+}
+li .class{
+    font-size: 15px;
+    color: #3f7188;
 }
 .fa-facebook{
     font-size: 50px;
@@ -322,12 +341,6 @@ li {
     padding: 15px;
     margin-top: 20px;
 }
-.info h3{
-
-}
-.info p{
-
-}
 
 .contact .right p{
     margin-top: 20px;
@@ -347,4 +360,5 @@ li {
     color: white;
     font-weight: bold;
     border: none;
+
 }
